@@ -1,0 +1,10 @@
+package redis
+
+import(
+	"rmqandredis/model"
+)
+
+type PostCache interface{
+	Set(key string,value model.Employee)
+	Get(key string) *model.Employee
+}
