@@ -11,7 +11,7 @@ import (
 
 var collection *mongo.Collection
 
-//ConnectToMongo creates a mongodb connection
+// ConnectToMongo creates a mongodb connection
 func ConnectToMongo() {
 	db := mongo.URI{
 		Username: "",
@@ -30,7 +30,7 @@ func ConnectToMongo() {
 	fmt.Println("Collection instance created!")
 }
 
-//AddToMongo adds a single record in the mongodb
+// AddToMongo adds a single record in the mongodb
 func AddToMongo(employee model.Employee) {
 	insertResult, err := collection.InsertOne(employee)
 	if err != nil {

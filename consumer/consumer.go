@@ -47,8 +47,8 @@ func main() {
 				sugarLogger.Errorf("Failed to unmarshal %s", err)
 			}
 			var post *model.Employee = postCache.Get(employee.EmpID)
-			var res = config.GetDetailsFromMysql(employee.EmpID)
 			if post == nil {
+				var res = config.GetDetailsFromMysql(employee.EmpID)
 				postCache.Set(employee.EmpID, res)
 			}
 			config.AddToMongo(employee)
