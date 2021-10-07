@@ -9,3 +9,5 @@ A simple golang application using RabbitMQ, Redis, MySQL and MongoDB.
 ## Usage
 1. Run cmd/main.go for publisher 
 2. Run consumer/consumer.go for consumer
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-go.svg)](https://forthebadge.com)
