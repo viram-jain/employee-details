@@ -3,11 +3,11 @@ package main
 import (
 	"encoding/json"
 	"os"
-	"rmqandredis/config"
-	"rmqandredis/model"
-	"rmqandredis/redis"
 
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/viramjainkaleyra/employee-details/config"
+	"github.com/viramjainkaleyra/employee-details/model"
+	"github.com/viramjainkaleyra/employee-details/redis"
 	"go.uber.org/zap"
 )
 

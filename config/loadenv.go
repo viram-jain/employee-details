@@ -1,9 +1,8 @@
 package config
 
 import (
-	"rmqandredis/constant"
-
 	"github.com/joho/godotenv"
+	"github.com/viramjainkaleyra/employee-details/constant"
 	"go.uber.org/zap"
 )
 

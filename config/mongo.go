@@ -4,9 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"rmqandredis/model"
-
 	"bitbucket.org/kaleyra/mongo-sdk/mongo"
+	"github.com/viramjainkaleyra/employee-details/model"
 )
 
 var collection *mongo.Collection

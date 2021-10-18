@@ -3,7 +3,8 @@ package config
 import (
 	"database/sql"
 	"os"
-	"rmqandredis/model"
+
+	"github.com/viramjainkaleyra/employee-details/model"
 )
 
 var (

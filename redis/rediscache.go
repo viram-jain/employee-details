@@ -4,10 +4,11 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
-	"rmqandredis/model"
+
 	"time"
 
 	"github.com/go-redis/redis"
+	"github.com/viramjainkaleyra/employee-details/model"
 )
 
 type redisCache struct {

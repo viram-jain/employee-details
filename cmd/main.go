@@ -3,9 +3,9 @@ package main
 import (
 	"encoding/json"
 
-	"rmqandredis/config"
-	"rmqandredis/model"
-	"rmqandredis/publisher"
+	"github.com/viramjainkaleyra/employee-details/config"
+	"github.com/viramjainkaleyra/employee-details/model"
+	"github.com/viramjainkaleyra/employee-details/publisher"
 )
 
 //main function

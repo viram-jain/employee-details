@@ -1,9 +1,8 @@
 package config
 
 import (
-	"rmqandredis/constant"
-
 	"github.com/natefinch/lumberjack"
+	"github.com/viramjainkaleyra/employee-details/constant"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

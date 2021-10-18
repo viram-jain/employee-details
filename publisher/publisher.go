@@ -4,9 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"rmqandredis/config"
-
 	"github.com/streadway/amqp"
+	"github.com/viramjainkaleyra/employee-details/config"
 	"go.uber.org/zap"
 )
 
