@@ -3,9 +3,9 @@ package main
 import (
 	"encoding/json"
 
-	"github.com/viramjainkaleyra/employee-details/config"
-	"github.com/viramjainkaleyra/employee-details/model"
-	"github.com/viramjainkaleyra/employee-details/publisher"
+	"github.com/viram-jain/employee-details/config"
+	"github.com/viram-jain/employee-details/model"
+	"github.com/viram-jain/employee-details/publisher"
 )
 
 //main function

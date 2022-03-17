@@ -1,6 +1,6 @@
 package redis
 
-import "github.com/viramjainkaleyra/employee-details/model"
+import "github.com/viram-jain/employee-details/model"
 
 type PostCache interface {
 	Set(key string, value model.Employee)

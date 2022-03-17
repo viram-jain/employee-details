@@ -1,4 +1,4 @@
-module github.com/viramjainkaleyra/employee-details
+module github.com/viram-jain/employee-details
 
 go 1.17
 

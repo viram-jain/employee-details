@@ -5,9 +5,9 @@ import (
 	"os"
 
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/viramjainkaleyra/employee-details/config"
-	"github.com/viramjainkaleyra/employee-details/model"
-	"github.com/viramjainkaleyra/employee-details/redis"
+	"github.com/viram-jain/employee-details/config"
+	"github.com/viram-jain/employee-details/model"
+	"github.com/viram-jain/employee-details/redis"
 	"go.uber.org/zap"
 )
 

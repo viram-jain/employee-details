@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"os"
 
-	"github.com/viramjainkaleyra/employee-details/model"
+	"github.com/viram-jain/employee-details/model"
 )
 
 var (

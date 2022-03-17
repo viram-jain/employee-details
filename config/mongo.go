@@ -5,7 +5,8 @@ import (
 	"os"
 
 	"bitbucket.org/kaleyra/mongo-sdk/mongo"
-	"github.com/viramjainkaleyra/employee-details/model"
+
+	"github.com/viram-jain/employee-details/model"
 )
 
 var collection *mongo.Collection
