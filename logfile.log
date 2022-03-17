@@ -1,6 +1,0 @@
-2022-03-17T12:12:31.566+0530	ERROR	Failed to ping to db Error 1698: Access denied for user 'root'@'localhost'
-2022-03-17T12:12:31.861+0530	ERROR	Failed to consume message Exception (404) Reason: "NOT_FOUND - no queue 'ViramQueue' in vhost '/'"
-2022-03-17T12:12:42.688+0530	ERROR	Failed to ping to db Error 1698: Access denied for user 'root'@'localhost'
-2022-03-17T12:12:43.324+0530	ERROR	Failed to fetch details Error 1698: Access denied for user 'root'@'localhost'
-2022-03-17T12:12:43.531+0530	ERROR	Failed to fetch details Error 1698: Access denied for user 'root'@'localhost'
-2022-03-17T12:12:43.576+0530	ERROR	Failed to fetch details Error 1698: Access denied for user 'root'@'localhost'
